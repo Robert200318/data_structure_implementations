@@ -1,9 +1,9 @@
 #include "list.h"
+
 template<typename T>
 List<T>::List() : list_size{0}, m_head{nullptr}
 {
 }
-
 
 template<typename T>
 List<T>::~List()
